@@ -23,7 +23,7 @@ class Solution:
             for i in range(len(tokens) - 1):
                 pair = (tokens[i], tokens[i + 1])
                 pairs[pair] += 1
-            print(pairs)
+ 
             if not pairs:
                 break
 
